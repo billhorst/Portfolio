@@ -1,0 +1,210 @@
+* { margin:0; padding:0; }
+
+body {
+	background-color: #f8f7f7;
+}
+
+/*----------------------------------------------------------*/
+/*top part: includes name, links, language button and banner*/
+/*----------------------------------------------------------*/
+.head {
+	width: 1000px;
+	min-height: 75px;
+	margin: auto;
+}
+
+.name {
+	float: left;
+	height: 75px;
+	width: 33%;
+}
+
+.titleName {
+	font-family: Lobster;
+	text-align: center;
+	padding-top: 14px;
+	font-size: 3em;
+}
+
+.navigbar {
+	float: right;
+	height: 75px; 
+}
+
+.navigList li {
+	display: inline-block;
+	list-style-type: none;
+	font-family: Lobster;
+	padding-top: 30px;
+	padding-left: 40px;
+	font-size: 2em;
+}
+
+.langButton {
+	position: fixed;
+	padding-left: 900px;
+	margin-top: -70px;
+}
+
+#jLangButton, #eLangButton {
+	padding: 5px;
+}
+
+.banner {
+	height: 100px;
+}
+
+.bannerThin {
+	height: 10px;
+	background-color: #DDD7F5;
+}
+
+.bannerThick {
+	min-height: 80px;
+	background-color: #14012B;
+}
+
+.pageSummaryContainer {
+	width: 48%;
+}
+
+#pageSummary {
+	padding-left: 30px;
+	padding-top: 12px;
+	font-size: 1em;
+	color: #D1E6C8;
+	font-family: Verdana;
+}
+
+
+
+/*----------------------------------------------------------*/
+/*middle part: includes tech icons, resume, contact button*/
+/*----------------------------------------------------------*/
+.mid {
+	width: 1000px;
+	margin: auto;
+	background-color: #a9a9a9
+}
+
+
+
+/*----------------------------------------------------------*/
+/*links part: just includes links to LinkedIn and GitHub*/
+/*----------------------------------------------------------*/
+.links {
+	width: 1000px;
+	margin: auto;
+	padding-top: 20px;
+	height: 60px;
+}
+
+#gh {
+	width: 49%;
+	float: left;
+	text-align: center;
+}
+
+#li {
+	width: 49%;
+	float: right;
+	text-align: center;
+}
+
+#gh img, #li img {
+	height: 40px;
+	padding-bottom: 10px;
+}
+
+
+/*----------------------------------------------------------*/
+/*footer: includes sitemap, download, etc (+copyright)*/
+/*----------------------------------------------------------*/
+.footer {
+	min-height: 100px;
+	width: 1000px;
+	margin: auto;
+	clear: both;
+}
+
+.footer h3 {
+	text-decoration: underline;
+}
+
+.siteMap {
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.siteMapLinks li {
+	list-style-type: none;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.siteMap h3 {
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.copyright {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+
+
+
+/*----------------------------------------------------------*/
+/* additional functionality for various aspects on pages*/
+/*----------------------------------------------------------*/
+
+
+/*----------------------------------------------------------*/
+/*hides all content that does not have chosen class on it*/
+.langHide {
+	display: none;
+}
+
+/*----------------------------------------------------------*/
+/*functionality for links*/
+a {
+	text-decoration: none;
+}
+
+.navigList a:visited {
+	color: #14012B;
+}
+
+.navigList a:hover, .navigList .currentPage {
+	color: #337500;
+}
+
+.specialHover {
+	background: #f8f7f7; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#f8f7f7, #E5D2FA); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#f8f7f7, #E5D2FA); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#f8f7f7, #E5D2FA); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#f8f7f7, #E5D2FA); /* Standard syntax */
+}
+
+
+
+/*----------------------------------------------------------*/
+/*functionality for sitemap*/
+.siteMap a:visited {
+	color: black;
+}
+
+.siteMap a:hover, .siteMap .currentPage {
+	color: red;
+}
+
+
+
+/*----------------------------------------------------------*/
+/*limits hr length*/
+hr {
+	width: 1000px;
+	margin: auto;
+}
