@@ -37,7 +37,7 @@ body {
 	font-family: Lobster;
 	padding-top: 30px;
 	padding-left: 40px;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .langButton {
@@ -65,13 +65,13 @@ body {
 }
 
 .pageSummaryContainer {
-	width: 48%;
+	width: 55%;
 }
 
 #pageSummary {
 	padding-left: 30px;
-	padding-top: 12px;
-	font-size: 1em;
+	padding-top: 5px;
+	font-size: 1.2em;
 	color: #D1E6C8;
 	font-family: Verdana;
 }
