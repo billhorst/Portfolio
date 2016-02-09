@@ -22,7 +22,7 @@ body {
 .titleName {
 	font-family: Lobster;
 	text-align: center;
-	padding-top: 14px;
+	padding-top: 5px;
 	font-size: 3em;
 }
 
@@ -43,7 +43,7 @@ body {
 .langButton {
 	position: fixed;
 	padding-left: 900px;
-	margin-top: -70px;
+	margin-top: -50px;
 }
 
 #jLangButton, #eLangButton {
