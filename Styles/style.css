@@ -180,7 +180,7 @@ a {
 }
 
 .navigList a:visited {
-	color: #14012B;
+	color: black;
 }
 
 .navigList a:hover, .navigList .currentPage {
