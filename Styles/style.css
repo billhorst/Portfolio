@@ -177,6 +177,7 @@ body {
 /*functionality for links*/
 a {
 	text-decoration: none;
+	color: black;
 }
 
 .navigList a:visited {
