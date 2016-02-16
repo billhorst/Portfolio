@@ -11,6 +11,7 @@ body {
 	width: 1000px;
 	min-height: 75px;
 	margin: auto;
+	padding-top: 40px;
 }
 
 .name {
@@ -34,7 +35,6 @@ body {
 .navigList li {
 	display: inline-block;
 	list-style-type: none;
-	font-family: Lobster;
 	padding-top: 30px;
 	padding-left: 40px;
 	font-size: 1.5em;
@@ -52,16 +52,19 @@ body {
 
 .banner {
 	height: 100px;
+	padding-top: 15px;
 }
 
 .bannerThin {
 	height: 10px;
-	background-color: #DDD7F5;
+	background-color: #B695F0;
 }
 
 .bannerThick {
 	min-height: 80px;
 	background-color: #14012B;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .pageSummaryContainer {
@@ -84,7 +87,9 @@ body {
 .mid {
 	width: 1000px;
 	margin: auto;
-	background-color: #a9a9a9
+	background-color: #a9a9a9;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 
@@ -134,6 +139,7 @@ body {
 .siteMap {
 	width: 300px;
 	margin-bottom: 10px;
+	margin-top: 20px;
 	height: 150px;
 }
 
@@ -178,15 +184,15 @@ a {
 }
 
 .navigList a:hover, .navigList .currentPage {
-	color: #337500;
+	color: #9C68F7;
 }
 
 .specialHover {
 	background: #f8f7f7; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(#f8f7f7, #E5D2FA); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#f8f7f7, #E5D2FA); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#f8f7f7, #E5D2FA); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#f8f7f7, #E5D2FA); /* Standard syntax */
+	background: -webkit-linear-gradient(#f8f7f7, #9C68F7); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#f8f7f7, #9C68F7); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#f8f7f7, #9C68F7); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#f8f7f7, #9C68F7); /* Standard syntax */
 }
 
 
@@ -198,7 +204,7 @@ a {
 }
 
 .siteMap a:hover, .siteMap .currentPage {
-	color: red;
+	font-weight: bolder;
 }
 
 
