@@ -75,23 +75,117 @@ body {
 	padding-left: 30px;
 	padding-top: 5px;
 	font-size: 1.2em;
-	color: #D1E6C8;
+	color: #f8f7f7;
 	font-family: Verdana;
 }
 
 
 
 /*----------------------------------------------------------*/
-/*middle part: includes tech icons, resume, contact button*/
+/*middle part of index.html: includes tech icons, 
+resume, contact button*/
 /*----------------------------------------------------------*/
 .mid {
 	width: 1000px;
 	margin: auto;
-	background-color: #a9a9a9;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 10px;
+	padding-top: 10px;
+
 }
 
+.mainLeftSide {
+	float: left;
+	width: 65%;
+	background-color: white;
+	padding-bottom: 20px;
+}
+
+.techListIntro {
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.mainRightSide {
+	float: right;
+	width: 35%;
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+.resumeIntro1 {
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.resumeIntro2 {
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.resume {
+	width: 75%;
+	max-height: 350px;
+	display: block;
+	margin: auto;
+}
+
+.techList li {
+	list-style-type: none;
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+
+.javaIcon {
+	width: 75%;
+}
+
+.htmlIcon {
+	width: 75%;
+}
+
+.cssIcon {
+	width: 75%;
+}
+
+.javaScriptIcon {
+	width: 75%;
+}
+
+.jQueryIcon {
+	width: 75%;
+}
+
+.angularIcon {
+	width: 75%;
+}
+
+
+
+
+/*----------------------------------------------------------*/
+/*middle part of About: includes tech icons, 
+resume, contact button*/
+/*----------------------------------------------------------*/
+
+
+/*----------------------------------------------------------*/
+/*middle part of Projects: includes tech icons, 
+resume, contact button*/
+/*----------------------------------------------------------*/
+
+
+/*----------------------------------------------------------*/
+/*middle part of Contact: includes tech icons, 
+resume, contact button*/
+/*----------------------------------------------------------*/
 
 
 /*----------------------------------------------------------*/
@@ -102,6 +196,7 @@ body {
 	margin: auto;
 	padding-top: 20px;
 	height: 60px;
+	clear: both;
 }
 
 #gh {
